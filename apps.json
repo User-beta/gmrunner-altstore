@@ -1,40 +1,42 @@
 {
-  "name": "gmrunner",
-  "subtitle": "GameMaker Studio 1.4 runner for iOS",
-  "description": "Personal AltStore source for gmrunner, a clean-room GameMaker Studio 1.4 runner. The app contains no game data: it loads a data.win you copy in yourself.",
-  "iconURL": "https://raw.githubusercontent.com/User-beta/gmrunner-altstore/main/icon.png",
-  "website": "https://github.com/User-beta/gmrunner-altstore",
-  "tintColor": "#E0A800",
-  "apps": [
-    {
-      "name": "gmrunner",
-      "bundleIdentifier": "local.gmrunner",
-      "developerName": "User-beta",
-      "subtitle": "GameMaker Studio 1.4 runner",
-      "localizedDescription": "Runs a GameMaker Studio 1.4 game from your own data.win. After installing, open the app once, then copy data.win and the game's .ogg files into On My iPhone > gmrunner with the Files app.\n\nThis build is an early milestone: a status screen and an asset viewer. Games do not run yet.",
-      "iconURL": "https://raw.githubusercontent.com/User-beta/gmrunner-altstore/main/icon.png",
-      "tintColor": "#E0A800",
-      "category": "games",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "buildVersion": "1",
-          "date": "2026-11-25",
-          "localizedDescription": "First build: status screen with input test, data.win loader and asset viewer.",
-          "downloadURL": "https://github.com/User-beta/gmrunner-altstore/releases/download/v0.1.0/gmrunner.ipa",
-          "size": 842129,
-          "minOSVersion": "15.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "version": "0.1.0",
-      "versionDate": "2026-11-25",
-      "downloadURL": "https://github.com/User-beta/gmrunner-altstore/releases/download/v0.1.0/gmrunner.ipa",
-      "size": 842129
-    }
-  ],
-  "news": []
+    "name":  "gmrunner",
+    "identifier":  "com.nworks.gmrunner.source",
+    "subtitle":  "GameMaker Studio 1.4 runner for iOS.",
+    "iconURL":  "https://raw.githubusercontent.com/User-beta/gmrunner-altstore/main/icon.png",
+    "website":  "https://github.com/User-beta/gmrunner-altstore",
+    "apps":  [
+                 {
+                     "name":  "gmrunner",
+                     "bundleIdentifier":  "com.nworks.gmrunner",
+                     "developerName":  "NWorks",
+                     "subtitle":  "GameMaker Studio 1.4 runner for iOS.",
+                     "localizedDescription":  "Runs a GameMaker Studio 1.4 game from your own data.win. After installing, open the app once, then copy data.win and the game\u0027s .ogg files into On My iPhone \u003e gmrunner with the Files app. Early build: status screen and asset viewer; games do not run yet.",
+                     "iconURL":  "https://raw.githubusercontent.com/User-beta/gmrunner-altstore/main/icon.png",
+                     "tintColor":  "E0A800",
+                     "screenshotURLs":  [
+
+                                        ],
+                     "versions":  [
+                                      {
+                                          "version":  "0.1.1",
+                                          "date":  "2026-11-25T19:40:16Z",
+                                          "localizedDescription":  "Status screen with input test, data.win loader and asset viewer.",
+                                          "downloadURL":  "https://github.com/User-beta/gmrunner-altstore/releases/download/v0.1.1/gmrunner-0.1.1.ipa",
+                                          "size":  865740,
+                                          "minOSVersion":  "15.0"
+                                      }
+                                  ],
+                     "appPermissions":  {
+                                            "entitlements":  [
+
+                                                             ],
+                                            "privacy":  {
+
+                                                        }
+                                        }
+                 }
+             ],
+    "news":  [
+
+             ]
 }
