@@ -10,7 +10,7 @@
                      "bundleIdentifier":  "com.nworks.gmrunner",
                      "developerName":  "NWorks",
                      "subtitle":  "GameMaker Studio 1.4 runner for iOS.",
-                     "localizedDescription":  "Runs a GameMaker Studio 1.4 game from your own data.win. After installing, open the app once, then copy data.win and the game\u0027s .ogg files into On My iPhone \u003e gmrunner with the Files app. Early build: status screen and asset viewer; games do not run yet.",
+                     "localizedDescription":  "Runs a GameMaker Studio 1.4 game from your own data.win, with on-screen touch controls, controller support and sound. After installing, open the app once, then copy data.win and the game\u0027s .ogg files into On My iPhone \u003e gmrunner (for example with the Apple Devices app on Windows) and switch back to the app. A three-finger tap switches between the game, a status screen and an asset viewer.",
                      "iconURL":  "https://raw.githubusercontent.com/User-beta/gmrunner-altstore/main/icon.png",
                      "tintColor":  "E0A800",
                      "screenshotURLs":  [
@@ -18,11 +18,11 @@
                                         ],
                      "versions":  [
                                       {
-                                          "version":  "0.1.1",
-                                          "date":  "2026-11-25T19:40:16Z",
-                                          "localizedDescription":  "Status screen with input test, data.win loader and asset viewer.",
-                                          "downloadURL":  "https://github.com/User-beta/gmrunner-altstore/releases/download/v0.1.1/gmrunner-0.1.1.ipa",
-                                          "size":  865740,
+                                          "version":  "0.2.0",
+                                          "date":  "2026-11-26T07:11:52Z",
+                                          "localizedDescription":  "Runs games now: bytecode interpreter, drawing, text, sound and music, collisions, saves compatible with the Windows version, on-screen touch controls and controller support.",
+                                          "downloadURL":  "https://github.com/User-beta/gmrunner-altstore/releases/download/v0.2.0/gmrunner-0.2.0.ipa",
+                                          "size":  1066636,
                                           "minOSVersion":  "15.0"
                                       }
                                   ],
